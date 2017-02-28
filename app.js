@@ -21,4 +21,8 @@ function test() {
     }
   }, childSchema); 
   console.log(`Child doc fullname: ${ childDoc.fullName }`);
+
+  console.log(`Attempting to access nested doc: ${ childDoc.profile.name }`)
+
+  console.log(`Attempting to access nested doc with get(): ${ childDoc.get('profile') }`);
 }
