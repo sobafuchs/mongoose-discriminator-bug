@@ -6,4 +6,4 @@ Instructions:
 
 2) compile client-side assets with `npm run compile`
 
-3) Visit browser at localhost:3000
+3) Visit browser at localhost:3000 and open up console to see the logs
